@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    font-size: 24px;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.cta {
+    scale: 0.7;
+    background-color: #1E90FF;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.left {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.right {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+.gray-background {
+    padding-top: 5px;
+    padding-bottom: 100px;
+    background-color: #040404;
+}
+.white-background {
+    padding-top: 5px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+}
+.extra-top-padding {
+    padding-top: 50px;
+}
+.flex-sor {
+    display: flex;
+    align-items: flex-start; /* Középre igazítja őket függőlegesen */
+    gap: 30px;           /* Távolság a szöveg és a doboz között */
+}
+.article-1 {
+    text-align: left;
+    margin-left: 40px;
+}
+.article-2 {
+    text-align: right;
+    margin-right: 40px;
+}
+.black-text {
+    color: black;
+}
+/*bento*/
+.box {
+    background-color: #1E90FF;
+    margin: 0;
+}
+
+.grid-container {
+    margin-top: 40px;
+    margin-bottom: 200px;
+    scale: 0.8;
+    /*0.66 ha a fenti kep 600px*/
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 150px 50px 220px 300px;
+    /*sor*/
+    grid-template-columns: 200px 200px 100px 200px 200px;
+    /*oszlop*/
+
+    gap: 1em;
+    grid-template-areas:
+        "box-1 box-2 box-2 box-3 box-3"
+        "box-1 box-5 box-5 box-3 box-3"
+        "box-4 box-5 box-5 box-3 box-3"
+        "box-6 box-6 box-7 box-7 box-7"
+        "box-6 box-6 box-7 box-7 box-7";
+}
+
+/*Placegolder things*/
+.kep-helye {
+    width: 100%;
+    /* Kitölti a konténer szélességét */
+    max-width: 600px;
+    /* De nem lesz nagyobb 600px-nél */
+    height: 300px;
+    /* Fix magasság */
+    background-color: #ff4d4d;
+    /* A piros színed */
+    border: 2px dashed #000;
+    /* Szaggatott vonal, hogy látszódjon: ez csak helykitöltő */
+    margin: 40px auto;
+}
+/* Ez teszi őket egymás mellé */
+
+/* A piros doboz */
+.kep-helye2 {
+    min-width: 300px;    /* Fix szélesség, hogy elférjen a szöveg mellett! */
+    height: 530px;
+    background-color: #ff4d4d;
+    border: 2px dashed #000;
+}
