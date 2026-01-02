@@ -13,13 +13,6 @@ main {
     font-size: 24px;
 }
 
-footer {
-    /*background-color: #040404;*/
-    background-color: #000000;
-    color: rgb(114, 114, 114);
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 .hero-title {
     font-size: 48px;
     margin-top: 100px;
@@ -61,39 +54,50 @@ footer {
     margin-right: auto;
     padding: 0 20px;
 }
+
 .gray-background {
     padding-top: 105px;
     padding-bottom: 200px;
     background-color: #040404;
 }
+
 .black-background {
     padding-top: 105px;
     padding-bottom: 200px;
     background-color: #000000;
 }
+
 .blank {
     padding-top: 20px;
     background-color: #ffffff;
 }
+
 .extra-top-padding {
     padding-top: 50px;
 }
+
 .flex-sor {
     display: flex;
-    align-items: flex-start; /* Középre igazítja őket függőlegesen */
-    gap: 30px;           /* Távolság a szöveg és a doboz között */
+    align-items: flex-start;
+    /* Középre igazítja őket függőlegesen */
+    gap: 30px;
+    /* Távolság a szöveg és a doboz között */
 }
+
 .article-1 {
     text-align: left;
     margin-left: 40px;
 }
+
 .article-2 {
     text-align: right;
     margin-right: 40px;
 }
+
 .black-text {
     color: black;
 }
+
 /*bento*/
 .box {
     background-color: #1E90FF;
@@ -135,12 +139,76 @@ footer {
     /* Szaggatott vonal, hogy látszódjon: ez csak helykitöltő */
     margin: 40px auto;
 }
+
 /* Ez teszi őket egymás mellé */
 
 /* A piros doboz */
 .kep-helye2 {
-    min-width: 300px;    /* Fix szélesség, hogy elférjen a szöveg mellett! */
+    min-width: 300px;
+    /* Fix szélesség, hogy elférjen a szöveg mellett! */
     height: 530px;
     background-color: #ff4d4d;
     border: 2px dashed #000;
+}
+
+/*top*/
+/* Main Header Container */
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    /* Pushes Logo left, Group right */
+    align-items: center;
+    padding: 1em 20px;
+}
+
+/* LEFT SIDE STYLE */
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* Adjusted slightly to match p-look */
+}
+
+/* RIGHT SIDE GROUP */
+.right-group {
+    display: flex;
+    gap: 30px;
+    /* Controls space betwen the right-side links */
+}
+
+/* RIGHT SIDE LINK STYLES */
+.menu-link {
+    text-decoration: none;
+    color: #888888;
+    font-weight: 200;
+    transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+    color: white;
+}
+
+/*footer*/
+footer {
+    /*border-top: 1px solid #0e0e0e;*/
+    background-color: #000000;
+    color: rgb(114, 114, 114);
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul {
+    list-style: none;
+    text-align: right;
+}
+footer ul li {
+    float: left;
+    padding: 16px;
+}
+
+.footer-a {
+    color: inherit;
+    text-decoration: underline;
 }
