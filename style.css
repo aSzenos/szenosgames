@@ -220,3 +220,11 @@ footer ul li {
     color: inherit;
     text-decoration: underline;
 }
+.longtext
+{
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
