@@ -21,4 +21,8 @@ function handleNav(event, sectionId) {
         event.preventDefault();
         scrollToSection(sectionId);
     }
+    else{
+        event.preventDefault();
+        window.location.href = `index.html#${sectionId}`;
+    }
 }
