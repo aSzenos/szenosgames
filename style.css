@@ -14,7 +14,7 @@ body {
 }
 
 main {
-    font-size: 24px;
+    font-size: 20px;
     flex: 1; /* Ez a varázslat: a main töltse ki az összes üres helyet */
 }
 
@@ -42,7 +42,6 @@ main {
     margin-bottom: 40px;
     margin-top: 50px;
 }
-
 .left {
     text-align: left;
     margin-left: 20px;
@@ -91,7 +90,13 @@ main {
     gap: 30px;
     /* Távolság a szöveg és a doboz között */
 }
-
+.fix-flex{
+display: grid;
+    /* Creates two equal columns */
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px;
+    align-items: start;
+}
 .article-1 {
     text-align: left;
     margin-left: 40px;
