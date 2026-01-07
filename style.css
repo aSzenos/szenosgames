@@ -279,3 +279,11 @@ footer ul li {
 .bento-differentcolor{
     background-color: #135ca5;
 }
+.bento-differentcolor2{
+    background-color: #ff4d4d;
+}
+.article-img{
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+}
