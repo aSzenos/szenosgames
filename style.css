@@ -62,7 +62,8 @@ main {
 .gray-background {
     padding-top: 105px;
     padding-bottom: 200px;
-    background-color: #040404;
+    background-color: #0d141c;
+    /*#040404;*/
 }
 
 .black-background {
@@ -238,4 +239,43 @@ footer ul li {
 }
 .extreme-top-padding{
     padding-top: 100px;
+}
+.mockup-img{
+    width: 300px;
+}
+.bigtext{
+    font-size: 64px;
+    font-weight: 700;
+}
+.side-padding{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.bigicon
+{
+    font-size: 50px;
+    color: white;
+}
+.ultralargeicon
+{
+    font-size: 180px;
+    color: white;
+}
+.middle-icon
+{
+    font-size: 100px;
+    color: white;
+}
+.hole{
+    height: 300px;
+}
+.blank{
+    background-color: #303030;
+}
+.image-shadow{
+    /* x-offset | y-offset | blur-radius | color */
+  filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.5));
+}
+.bento-differentcolor{
+    background-color: #135ca5;
 }

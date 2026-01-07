@@ -5,6 +5,7 @@
     <title>Szenos Games</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -21,27 +22,47 @@
     <main>
         <section class="hero">
             <h1 class="hero-title">Where Imagination<br> Meets Reality</h1>
-            <div class="kep-helye"></div>
+            <!--<div class="kep-helye"></div>-->
+            <img src="Image/keyartalfa.png" alt="">
+            <!--<img src="Image/heropic2.png" alt="graphic" class="extreme-top-padding">-->
+            <!--<div class="hole"></div>-->
             <p>Bringing high quality Indie experiences<br>right to your fingertips.</p>
             <button type="button" class="cta" onclick="scrollToSection('bento')">Learn more!</button>
         </section>
         <section id="bento" class="container">
             <div class="grid-container">
-                <div class="box" style="grid-area: box-1" onclick="scrollToSection('about')">Hi</div>
-                <div class="box" style="grid-area: box-2">4.3</div>
-                <div class="box" style="grid-area: box-3" onclick="window.open('https:szenos.itch.io')">
+                <div class="box bigtext extra-top-padding bento-differentcolor" style="grid-area: box-1" onclick="scrollToSection('about')">
+                    Hi!</div>
+                <div class="box extra-top-padding blank" style="grid-area: box-2">
+                    <i class="fa-solid fa-star bigicon"></i>
+                    <i class="fa-solid fa-star bigicon"></i>
+                    <i class="fa-solid fa-star bigicon"></i>
+                    <i class="fa-solid fa-star bigicon"></i>
+                    <i class="fa-solid fa-star-half-stroke bigicon"></i>
+
+                </div>
+                <div class="box bigtext right extra-top-padding side-padding" style="grid-area: box-3"
+                    onclick="window.open('https:szenos.itch.io')">
                     See<br>Our<br>Games</div>
-                <div class="box" style="grid-area: box-4">wiki</div>
-                <div class="box" style="grid-area: box-5" onclick="scrollToSection('rgb')">Play now</div>
-                <div class="box" style="grid-area: box-6">Latest<br>News</div>
-                <div class="box" style="grid-area: box-7">Gamedev</div>
+                <div class="box middle-icon extra-top-padding" style="grid-area: box-4;"
+                    onclick="window.location.href='contact.html'">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+
+                <div class="box bigtext left side-padding extra-top-padding bento-differentcolor" style="grid-area: box-5"
+                    onclick="scrollToSection('rgb')"><i>Check out!</i></div>
+                <div class="box bigtext" style="grid-area: box-6" onclick="window.location.href='article.html'">
+                    <i class="fa-solid fa-newspaper ultralargeicon"></i>
+                    <br>Latest<br>News
+                </div>
+                <div class="box blank" style="grid-area: box-7"></div>
             </div>
         </section>
         <section id="rgb" class="gray-background">
             <div class="container">
-                <h1 class="article-1">RGB Switcher</h1>
                 <div class="flex-sor">
                     <div>
+                        <h1 class="article-1">RGB Switcher</h1>
                         <p class="left extra-top-padding">
                             Swipe to survive in a dying black-and-white world. Use RGB color powers to fight enemies,
                             unlock
@@ -49,9 +70,13 @@
                         </p>
                         <button type="button" class="cta"
                             onclick="openLink('https://www.apple.com/app-store/',true)">View in Store</button>
-                        <button type="button" class="cta" onclick="window.location.href='article.html'">Dive Deeper</button>
+                        <button type="button" class="cta" onclick="window.location.href='article.html'">Dive
+                            Deeper</button>
                     </div>
-                    <div class="kep-helye2"></div>
+                    <!-- <div class="kep-helye2"></div> -->
+                    <div>
+                        <img src="Image/mockup.png" alt="screenshot on phone" class="mockup-img image-shadow">
+                    </div>
                 </div>
             </div>
         </section>
@@ -82,4 +107,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
