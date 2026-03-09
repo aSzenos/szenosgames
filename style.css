@@ -287,3 +287,6 @@ footer ul li {
     max-width: 600px;
     margin: 40px auto;
 }
+body.loading {
+    visibility: hidden;
+}
