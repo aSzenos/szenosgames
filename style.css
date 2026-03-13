@@ -287,6 +287,17 @@ footer ul li {
     max-width: 600px;
     margin: 40px auto;
 }
+.article-img2{
+    width: 100%;
+    max-width: 600px;
+    margin: 40px 40px 0 40px;
+}
 body.loading {
     visibility: hidden;
+}
+.graycolor{
+    color: rgb(58, 58, 58);
+}
+.extra-right-padding{
+    padding-right: 80px;
 }
