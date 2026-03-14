@@ -15,7 +15,8 @@ body {
 
 main {
     font-size: 20px;
-    flex: 1; /* Ez a varázslat: a main töltse ki az összes üres helyet */
+    flex: 1;
+    /* Ez a varázslat: a main töltse ki az összes üres helyet */
 }
 
 .hero-title {
@@ -42,6 +43,7 @@ main {
     margin-bottom: 40px;
     margin-top: 50px;
 }
+
 .left {
     text-align: left;
     margin-left: 20px;
@@ -80,6 +82,7 @@ main {
 .extra-top-padding {
     padding-top: 50px;
 }
+
 .extra-bottom-padding {
     padding-bottom: 50px;
 }
@@ -91,13 +94,15 @@ main {
     gap: 30px;
     /* Távolság a szöveg és a doboz között */
 }
-.fix-flex{
-display: grid;
+
+.fix-flex {
+    display: grid;
     /* Creates two equal columns */
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     align-items: start;
 }
+
 .article-1 {
     text-align: left;
     margin-left: 40px;
@@ -213,10 +218,12 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
 footer ul {
     list-style: none;
     text-align: right;
 }
+
 footer ul li {
     float: left;
     padding: 16px;
@@ -226,78 +233,100 @@ footer ul li {
     color: inherit;
     text-decoration: underline;
 }
-.longtext
-{
+
+.longtext {
     text-align: left;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
 }
-.logo{
+
+.logo {
     width: 500px;
 }
-.extreme-top-padding{
+
+.extreme-top-padding {
     padding-top: 100px;
 }
-.mockup-img{
+
+.mockup-img {
     width: 300px;
 }
-.bigtext{
+
+.bigtext {
     font-size: 64px;
     font-weight: 700;
 }
-.side-padding{
+
+.side-padding {
     padding-right: 40px;
     padding-left: 40px;
 }
-.bigicon
-{
+
+.bigicon {
     font-size: 50px;
     color: white;
 }
-.ultralargeicon
-{
+
+.ultralargeicon {
     font-size: 180px;
     color: white;
 }
-.middle-icon
-{
+
+.middle-icon {
     font-size: 100px;
     color: white;
 }
-.hole{
+
+.hole {
     height: 300px;
 }
-.blank{
+
+.blank {
     background-color: #303030;
 }
-.image-shadow{
+
+.image-shadow {
     /* x-offset | y-offset | blur-radius | color */
-  filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.5));
 }
-.bento-differentcolor{
+
+.bento-differentcolor {
     background-color: #135ca5;
 }
-.bento-differentcolor2{
+
+.bento-differentcolor2 {
     background-color: #ff4d4d;
 }
-.article-img{
+
+.article-img {
     width: 100%;
     max-width: 600px;
     margin: 40px auto;
 }
-.article-img2{
+
+.article-img2 {
     width: 100%;
     max-width: 600px;
     margin: 40px 40px 0 40px;
 }
+
 body.loading {
     visibility: hidden;
 }
-.graycolor{
+
+.graycolor {
     color: rgb(58, 58, 58);
 }
-.extra-right-padding{
+
+.extra-right-padding {
     padding-right: 80px;
+}
+
+.maxwidth300 {
+    max-width: 300px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
 }
