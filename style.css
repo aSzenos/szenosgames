@@ -7,16 +7,15 @@ body {
     font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 main {
     font-size: 20px;
     flex: 1;
-    /* Ez a varázslat: a main töltse ki az összes üres helyet */
 }
 
 .hero-title {
@@ -25,8 +24,14 @@ main {
     margin-bottom: 20px;
 }
 
+/* Stops hero images from bleeding off smaller screens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .cta {
-    scale: 0.7;
+    transform: scale(0.7);
     background-color: #1E90FF;
     color: white;
     padding: 15px 30px;
@@ -36,12 +41,16 @@ main {
     cursor: pointer;
     text-align: center;
     margin-top: 50px;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #135ca5;
 }
 
 .hero p {
-    margin-top: 20px;
-    margin-bottom: 40px;
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .left {
@@ -61,11 +70,16 @@ main {
     padding: 0 20px;
 }
 
+/* ADDED PADDING SO TEXT NEVER TOUCHES THE EDGE ON OTHER PAGES */
+.biggestcontainer {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
 .gray-background {
     padding-top: 105px;
     padding-bottom: 200px;
     background-color: #0d141c;
-    /*#040404;*/
 }
 
 .black-background {
@@ -90,14 +104,11 @@ main {
 .flex-sor {
     display: flex;
     align-items: flex-start;
-    /* Középre igazítja őket függőlegesen */
     gap: 30px;
-    /* Távolság a szöveg és a doboz között */
 }
 
 .fix-flex {
     display: grid;
-    /* Creates two equal columns */
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     align-items: start;
@@ -117,24 +128,28 @@ main {
     color: black;
 }
 
-/*bento*/
+/* Bento Desktop Grid */
 .box {
     background-color: #1E90FF;
     margin: 0;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.02);
 }
 
 .grid-container {
+    padding-top: 200px;
     margin-top: 40px;
     margin-bottom: 200px;
-    scale: 0.6;
-    /*0.66 ha a fenti kep 600px*/
+    transform: scale(0.6);
+    transform-origin: top center;
     justify-content: center;
     display: grid;
     grid-template-rows: 150px 50px 220px 300px;
-    /*sor*/
     grid-template-columns: 200px 200px 100px 200px 200px;
-    /*oszlop*/
-
     gap: 1em;
     grid-template-areas:
         "box-1 box-2 box-2 box-3 box-3"
@@ -144,58 +159,45 @@ main {
         "box-6 box-6 box-7 box-7 box-7";
 }
 
-/*Placegolder things*/
+/* Placeholders */
 .kep-helye {
     width: 100%;
-    /* Kitölti a konténer szélességét */
     max-width: 600px;
-    /* De nem lesz nagyobb 600px-nél */
     height: 300px;
-    /* Fix magasság */
     background-color: #ff4d4d;
-    /* A piros színed */
     border: 2px dashed #000;
-    /* Szaggatott vonal, hogy látszódjon: ez csak helykitöltő */
     margin: 40px auto;
 }
 
-/* Ez teszi őket egymás mellé */
-
-/* A piros doboz */
 .kep-helye2 {
     min-width: 300px;
-    /* Fix szélesség, hogy elférjen a szöveg mellett! */
     height: 530px;
     background-color: #ff4d4d;
     border: 2px dashed #000;
 }
 
-/*top*/
-/* Main Header Container */
+/* Header */
 .header-row {
     display: flex;
     justify-content: space-between;
-    /* Pushes Logo left, Group right */
     align-items: center;
     padding: 1em 20px;
 }
 
-/* LEFT SIDE STYLE */
 .logo {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    /* Adjusted slightly to match p-look */
+    /* Removed the 100% width here so it doesn't push the links away */
+    white-space: nowrap; 
 }
 
-/* RIGHT SIDE GROUP */
 .right-group {
     display: flex;
     gap: 30px;
-    /* Controls space betwen the right-side links */
+    align-items: center;
 }
 
-/* RIGHT SIDE LINK STYLES */
 .menu-link {
     text-decoration: none;
     color: #888888;
@@ -207,13 +209,11 @@ main {
     color: white;
 }
 
-/*footer*/
+/* Footer */
 footer {
-    /*border-top: 1px solid #0e0e0e;*/
     background-color: #000000;
     color: rgb(114, 114, 114);
     padding: 20px 40px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -222,10 +222,11 @@ footer {
 footer ul {
     list-style: none;
     text-align: right;
+    padding: 0;
 }
 
 footer ul li {
-    float: left;
+    display: inline-block;
     padding: 16px;
 }
 
@@ -234,24 +235,24 @@ footer ul li {
     text-decoration: underline;
 }
 
+/* Utilities */
 .longtext {
     text-align: left;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     font-size: 20px;
-}
-
-.logo {
-    width: 500px;
+    padding: 0 20px; 
+    box-sizing: border-box; 
 }
 
 .extreme-top-padding {
     padding-top: 100px;
 }
 
+/* MASSIVELY INCREASED DESKTOP MOCKUP SIZE */
 .mockup-img {
-    width: 300px;
+    width: 100%; 
+    max-width: 100%;
 }
 
 .bigtext {
@@ -285,10 +286,14 @@ footer ul li {
 
 .blank {
     background-color: #303030;
+    cursor: default;
+}
+
+.blank:hover {
+    transform: none;
 }
 
 .image-shadow {
-    /* x-offset | y-offset | blur-radius | color */
     filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.5));
 }
 
@@ -329,4 +334,126 @@ body.loading {
     width: auto;
     display: block;
     margin: 0 auto;
+}
+
+
+/* ========================================= */
+/* MOBILE RESPONSIVE RULES                   */
+/* ========================================= */
+
+@media (max-width: 768px) {
+
+    img {
+        max-width: 90vw;
+        height: auto;
+    }
+
+    /* Stack flex elements vertically and center */
+    .flex-sor {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fix-flex {
+        grid-template-columns: 1fr;
+    }
+
+    .left,
+    .right,
+    .article-1,
+    .article-2 {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* HEADER FIX: Keep Logo left, links securely on the right */
+    .header-row {
+        flex-direction: row; 
+        flex-wrap: nowrap; /* Prevents the whole group from breaking to a new line */
+        justify-content: space-between;
+        padding: 1em 10px; 
+    }
+
+    .right-group {
+        gap: 12px; 
+        flex-wrap: wrap; /* Allows links to wrap if the screen is super narrow... */
+        justify-content: flex-end; /* ...but keeps them glued to the right side! */
+        text-align: right;
+    }
+
+    .menu-link {
+        font-size: 14px; /* Shrunk slightly so it fits neatly beside the logo */
+    }
+
+    /* Footer Stacking */
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer ul {
+        text-align: center;
+    }
+
+    /* THIS IS THE FIX FOR THE SCROLLING ISSUE */
+    #bento {
+        scroll-margin-top: 100px; 
+    }
+
+    /* MOBILE 2-COLUMN BENTO GRID */
+    .grid-container {
+        margin-top: 200px;
+        transform: scale(0.7);
+        transform-origin: top center; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 15px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        grid-template-areas:
+            "box-1 box-1"
+            "box-3 box-3"
+            "box-5 box-5"
+            "box-4 box-6";
+    }
+
+    .box {
+        width: 100%;
+        min-height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    /* Hides the empty placeholders to save mobile space */
+    .blank {
+        display: none;
+    }
+
+    /* Typography tweaks to prevent text spilling over */
+    .hero-title {
+        font-size: 36px;
+        margin-top: 60px;
+    }
+
+    .bigtext {
+        font-size: 40px;
+    }
+
+    .ultralargeicon {
+        font-size: 80px;
+    }
+
+    .middle-icon {
+        font-size: 60px;
+    }
 }
