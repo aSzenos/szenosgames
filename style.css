@@ -336,6 +336,14 @@ body.loading {
     margin: 0 auto;
 }
 
+.maxwidth500 {
+    max-width: 500px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
 
 /* ========================================= */
 /* MOBILE RESPONSIVE RULES                   */
