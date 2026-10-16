@@ -342,7 +342,12 @@ body.loading {
     display: block;
     margin: 0 auto;
 }
-
+.maxwidth750 {
+    max-width: 750px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 
 /* ========================================= */
