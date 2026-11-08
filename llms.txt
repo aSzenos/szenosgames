@@ -1,0 +1,50 @@
+# Szenos Games - Official Information & Press Overview
+
+> Szenos Games is a Hungarian independent game studio founded to create deep, engaging, high-contrast mobile gaming experiences.
+
+## Studio Overview
+- **Studio Name**: Szenos Games
+- **Location**: Hungary
+- **Website**: https://szenosgames.com/
+- **Contact & Support Email**: hello@szenosgames.com
+- **X (Twitter)**: https://x.com/Szenosgames
+- **YouTube**: https://www.youtube.com/@szenosgames
+- **Itch.io**: https://szenos.itch.io
+- **Linktree**: https://linktr.ee/szenosgames
+
+---
+
+## Flagship Game: RGB Switcher: Color Roguelike
+
+### Quick Facts
+- **Title**: RGB Switcher: Color Roguelike
+- **Developer & Publisher**: Szenos Games
+- **Release Date**: August 27, 2026
+- **Platforms**: iOS (iPhone & iPad)
+- **Genre**: Fast-Paced Grid-Based Action Roguelike / Color-Mixing Arcade
+- **App Store URL**: https://apps.apple.com/us/app/rgb-switcher-color-roguelike/id6790524090
+- **App Store ID**: 6790524090
+- **60-Second Gameplay Trailer (YouTube)**: https://youtu.be/teonaXSEr-Q
+- **Official Press Kit Page**: https://szenosgames.com/presskit.html
+- **Google Drive Press Kit Assets (Screenshots, Logos, Mockups)**: https://drive.google.com/drive/folders/1Jrb5KwbBO9Cy42adNqpJYrHQDdegfyfm?usp=sharing
+- **Deep Dive Article**: https://szenosgames.com/rgb-switcher-article.html
+
+### Synopsis & Story
+Swipe to survive in a dying black-and-white world. After a civil war between those who loved color and the "Color Haters," all vibrancy was erased into a bleak void. As a Painter, you must master three vital switches—Red, Green, and Blue (RGB)—to mix colors (such as Yellow, Cyan, Magenta, and White), restore corrupted tiles to their original hues, and battle Color-Hater Goblins and their twisted creations.
+
+### Core Gameplay & Features
+- **Grid-Based Arcade Action**: Fast-paced swipe movement combined with real-time RGB switch toggling.
+- **Color-Repair Mechanics**: Blend Red, Green, and Blue switches on the fly to match and restore corrupted tiles.
+- **Roguelike Build Variety**: Unlock and combine Passive and Active abilities every run, such as *Spirit Buddy* (automation), *D.U.C.K* (shielding), and *Mystic Mustangs* (instant row-clearing).
+- **Adaptive Procedural Runs**: Driven by an intelligent Adaptive System with procedurally generated maps, randomized ability pools, and unpredictable Level Modifiers.
+- **Distinct Enemy Roster**: Battle specialized hazards and monsters including the tile-devouring *Color Mower*, explosive *Boom Moss*, falling *Dripstones*, arrow-slinging *Bowblins*, and the erratic *Crocolor*.
+- **Character Customization & High-Contrast Art Style**: Unlockable cosmetics and readable, abstract visual design.
+
+---
+
+## Important Pages for Crawlers
+- [Home](https://szenosgames.com/index.html): Studio introduction and RGB Switcher overview.
+- [RGB Switcher Deep Dive Article](https://szenosgames.com/rgb-switcher-article.html): Detailed breakdown of story, RGB color-mixing mechanics, abilities, procedural generation, and enemies.
+- [Press Kit](https://szenosgames.com/presskit.html): Fact sheet, feature list, trailer link, and downloadable media asset links.
+- [Contact](https://szenosgames.com/contact.html): Customer support and press inquiries (`hello@szenosgames.com`).
+- [Privacy Policy](https://szenosgames.com/privacy.html): Official privacy and data protection policy.

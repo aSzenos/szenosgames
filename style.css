@@ -305,6 +305,10 @@ footer ul li {
     background-color: #ff4d4d;
 }
 
+figure {
+    margin: 0;
+}
+
 .article-img {
     width: 100%;
     max-width: 600px;
@@ -468,5 +472,47 @@ body.loading {
 
     .middle-icon {
         font-size: 60px;
+    }
+
+    .maxwidth750 {
+        width: 100% !important;
+        max-width: min(750px, 92vw) !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    .maxwidth500 {
+        width: 100% !important;
+        max-width: min(500px, 90vw) !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    .maxwidth300 {
+        width: 100% !important;
+        max-width: min(300px, 90vw) !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    .hero .extreme-top-padding {
+        padding-top: 30px !important;
+    }
+
+    .article-img,
+    .article-img2 {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 25px auto !important;
+        display: block !important;
+        height: auto !important;
+        box-sizing: border-box !important;
+    }
+
+    .extra-right-padding {
+        padding-right: 0 !important;
     }
 }
