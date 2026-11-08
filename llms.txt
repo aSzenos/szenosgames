@@ -48,3 +48,4 @@ Swipe to survive in a dying black-and-white world. After a civil war between tho
 - [Press Kit](https://szenosgames.com/presskit.html): Fact sheet, feature list, trailer link, and downloadable media asset links.
 - [Contact](https://szenosgames.com/contact.html): Customer support and press inquiries (`hello@szenosgames.com`).
 - [Privacy Policy](https://szenosgames.com/privacy.html): Official privacy and data protection policy.
+- [Terms of Service](https://szenosgames.com/terms.html): Information confirming operation under Apple's Standard End User License Agreement (EULA).
